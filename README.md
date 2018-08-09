@@ -1,9 +1,5 @@
 # np-station
 
-**Online Repository for NP Station Add-on releases**
+**Online Repository for NP Station (todo)**
 
-**Overview**
-
-* NP_Station_2017_06_06_golden_overlap_fix *(older release)*
-* NP_Station_2017_09_29 *(latest release)*
-* NP_Station_manual *(user instruction manual)*
+Please see the [release branch](https://github.com/n-Burn/np-station/tree/releases) to get the latest version of NP Station
