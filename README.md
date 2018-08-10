@@ -1,4 +1,4 @@
-# np-station
+# NP Station
 
 **Online Repository for NP Station (todo)**
 
