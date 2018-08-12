@@ -1,6 +1,6 @@
 # Install this as a regular add-on, do not copy this into the NP Station
-# directory. Make sure NP Station is intalled and enabled before enabling
-# this add-on.
+# directory. Make sure NP Station is intalled and enabled before trying to
+# enable this add-on.
 
 # ##### BEGIN GPL LICENSE BLOCK #####
 #
@@ -27,16 +27,14 @@ bl_info = {
     "author": "qweqwe",
     "version": (0, 0, 2),
     "blender": (2, 75, 0),
-    "description": "Pie menu for Np Station 020",
+    "description": "Pie menu for Np Station",
     "category": "User Interface"
 }
 
 
 import bpy
-from bpy.types import Menu, Operator
-from bpy.props import EnumProperty
 
-class VIEW3D_PIE_NP(Menu):
+class VIEW3D_PIE_NP(bpy.types.Menu):
     """pie NP pie""" 
     bl_label = "NP"
 
@@ -72,7 +70,7 @@ def register():
         if op not in dir(bpy.ops.Object):
             print({'WARNING'}, "Could not find expected operator: " + op)
             print("NP Station Pie Menu was not loaded.")
-            print("Please make sure NP Station is enabled before loading this add-on.")
+            print("NP Station must be enabled before enabling this add-on.")
             np_station_found = False
             break
     if np_station_found:
