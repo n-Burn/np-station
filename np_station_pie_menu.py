@@ -1,6 +1,6 @@
 # Install this as a regular add-on, do not copy this into the NP Station
 # directory. Make sure NP Station is intalled and enabled before trying to
-# enable this add-on.
+# enable this add-on. Pie menu opened in 3D view with: CTRL + Shift + Space
 
 # ##### BEGIN GPL LICENSE BLOCK #####
 #
